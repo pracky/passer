@@ -1,0 +1,24 @@
+{
+    "name": "Link Bypasser Bot",
+    "description": "bypass links from various websites using this telegram bot",
+    "repository": "https://github.com/bipinkrish/Link-Bypasser-Bot",
+    "buildpacks": [
+               {
+            "url": "heroku/python"
+        }
+    ],
+    "env": {
+        "API_ID": {
+            "description": "Get your telegram API ID from https://my.telegram.org",
+            "value": "YOUR_TELEGRAM_API_ID"
+        },
+        "API_HASH": {
+            "description": "Get your telegram API HASH from https://my.telegram.org",
+            "value": "YOUR_TELEGRAM_API_HASH"
+        },
+        "BOT_TOKEN": {
+            "description": "Get from BotFather",
+            "value": "YOUR_TELEGRAM_BOT_TOKEN"
+        }
+    }
+}
